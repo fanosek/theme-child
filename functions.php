@@ -21,4 +21,4 @@ function theme_enqueue_styles() {
     
     // wp_enqueue_script( 'sydney-main-child', get_template_directory_uri() . '/js/main.js', array('jquery'), true );
 }
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles');
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', 999);
